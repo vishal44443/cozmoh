@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cozmoh — Template Repository (Stage 1)</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="header">
+      <div class="branding">
+        <div class="logo">Cz</div>
+        <div class="titles">
+          <h1>Template Repository — Stage 1</h1>
+          <p class="lead">Static internal gallery for quick sharing of WordPress templates with clients.</p>
+        </div>
+      </div>
+      <div class="meta-info">
+        <div class="badge">Stage 1</div>
+        <div class="hint"> · Click "Copy" to copy the template link</div>
+      </div>
+      <div class="search-bar">
+        <input type="text" id="search" placeholder="Search templates..." aria-label="Search templates">
+      </div>
+    </header>
+
+    <main>
+      <section aria-label="Template gallery" class="gallery-section">
+        <ul id="grid" class="grid" role="list"></ul>
+      </section>
+
+      <div class="notes">
+        <!-- <strong>Notes:</strong> Replace screenshots in <code>/screenshots</code> and update links in <code>js/app.js</code>. -->
+      </div>
+
+      <div id="toast" class="toast" role="status" aria-live="polite">Link copied</div>
+    </main>
+
+    <footer class="footer">Cozmoh Intelligence — Template sharing helper (intern project)</footer>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>
